@@ -1,56 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Blake Lun</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <link rel="stylesheet" href="mystyle.css">
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Blake Lun and I'm a senior computer science major with a minor in business.
+            I was born in Florida, but I moved to Sugar Land, Texas which is part of the greater Houston area.</p>
+        <p>I am passionate about [your interests/hobbies]. I have [number] years of experience in [relevant field] and enjoy [activity].</p>
+        <h2>Employment Experience</h2>
+        <table>
+            <tbody><tr>
+                <th>Company</th>
+                <th>Position</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <td>Charles Schwab</td>
+                <td>Software Developer Intern</td>
+                <td>Westlake, TX</td>
+            </tr>
+            <tr>
+                <td>Starbucks</td>
+                <td>Barista</td>
+                <td>College Station, TX</td>
+            </tr>
+            <tr>
+                <td>Keeper's</td>
+                <td>Server</td>
+                <td>Sugar Land, TX</td>
+            </tr>
+        </tbody></table>
+        <p>Here is a link to my <a href="files/Blake_Lun_Resume.pdf" target="_blank" rel="noopener noreferrer"> resume</a></p>
+        
+    </section>
 
-    <h1>Hello My Name is Blake Lun</h1>
-    <a href="https://www.linkedin.com/in/blake-lun/">LinkedIn Profile</a>
+    <section id="accessibility">
+        <h2>Accessibility Interests</h2>
+        <p>Hello! My name is Blake Lun and I'm a senior <strong>computer science</strong> major. </p>
+        <h2>Background</h2>
+        <p>I am passionate about [your interests/hobbies]. I have [number] years of experience in [relevant field] and enjoy [activity].</p>
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+        </ul>
+    </section>
 
-    <img src="/images/Major_levels_of_linguistic_structure.png" alt="Semantic Image" style="width:500;height:500px;">
-    <img src="/images/dog.jpg" alt="Dog Picture" style="width:500px;height:500px;">
-
-    <p>I'm a senior at Texas A&M University studying computer science.</p>
-
-    <h2>Table of places I've worked at</h2>
-    <table>
-        <tr>
-            <th>Company</th>
-            <th>Position</th>
-            <th>Location</th>
-        </tr>
-        <tr>
-            <td>Charles Schwab</td>
-            <td>Software Developer Intern</td>
-            <td>Westlake, TX</td>
-        </tr>
-        <tr>
-            <td>Starbucks</td>
-            <td>Barista</td>
-            <td>College Station, TX</td>
-        </tr>
-        <tr>
-            <td>Keeper's</td>
-            <td>Server</td>
-            <td>Sugar Land, TX</td>
-        </tr>
-    </table>
-
-    <h2>Things I like to do</h2>
-    <ul>
-        <li>Volleyball</li>
-        <li>Gaming</li>
-        <li>Poker</li>
-    </ul>
-
-    <h2>Places I want to live from greatest to least</h2>
-    <ol>
-        <li>California</li>
-        <li>Texas</li>
-        <li>New York</li>
-    </ol>
-
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:blakelunnn@tamu.edu" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required=""><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required=""><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required=""></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 </body>
 </html>
+

@@ -105,7 +105,7 @@ tr:nth-child(even) {
 
 
 .contact form button {
-    background-color: rgb(7, 7, 170);
+    background-color: rgb(42, 125, 185);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -115,5 +115,5 @@ tr:nth-child(even) {
 }
 
 .contact form button:hover {
-    background-color: #0e243a;
+    background-color: rgb(7, 7, 170);
 }

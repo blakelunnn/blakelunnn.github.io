@@ -29,9 +29,6 @@ section {
     font-size: 20px;
 }
 
-p {
-    font-size: 40px;
-}
 
 .about p {
     max-width: 60%;
@@ -59,7 +56,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #b0b0b0;
 }
 
 
@@ -74,7 +71,7 @@ tr:nth-child(even) {
 }
 
 .accessibility img {
-    width: 250px; 
+    width: 400px; 
     margin-bottom: 10px;
 }
 
